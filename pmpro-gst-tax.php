@@ -18,7 +18,7 @@ function pmprogst_pmpro_tax($tax, $values, $order)
 function pmprogst_pmpro_level_cost_text($cost, $level)
 {
 	//only applicable for levels > 1
-	$cost .= " Members in Canada will be charged a GST tax.";
+	$cost .= " Members in Canada will be charged GST.";
 	
 	return $cost;
 }
